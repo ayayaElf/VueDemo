@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minmum-scale=1.0, maxmum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript">
+        // 100 * (clientWidth / designWidth)    ==>    100 * (414 / 1080) = 38.333333333333336px
+        // 1vw = 414 / 100 = 4.14px;    ==>    38.333333333333336 / 4.14 = 9.259259259259261px
+    </script>
+</head>
+<body>
+    <header id="header" class="clearfix">
+        <h1 class="left"><a href="#"><img src="./images/logo.png" alt=""></a></h1>
+        <div class="bar right">
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </header>
+    <section id="scroll">
+        <section id="banner">
+            <div class="moveWrap">
+                <div><img src="./images/banner.jpg" alt=""></div>
+            </div>
+            <!-- <div class="control">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div> -->
+        </section>
+        <nav id="nav" class="clearfix">
+            <nav-icon isrc="ico_03.png" content="天天市场"></nav-icon>
+            <nav-icon isrc="ico_04.png" content="我的订单"></nav-icon>
+            <nav-icon isrc="ico_05.png" content="充值有礼"></nav-icon>
+            <nav-icon isrc="ico_06.png" content="积分商城"></nav-icon>
+        </nav>
+        <section id="ad">
+            <a href="#"><img src="./images/img_01.jpg" alt=""></a>
+        </section>
+        <section class="item">
+            <div>
+                <a href="#"><img src="./images/img_02.jpg" alt=""></a>
+            </div>
+            <div class="coloum">
+                <a href="#"><img src="./images/img_03.jpg" alt=""></a>
+                <a href="#"><img src="./images/img_04.jpg" alt=""></a>
+            </div>
+        </section>
+        <section class="item pd">
+            <div class="coloum">
+                <a href="#"><img src="./images/img_05.jpg" alt=""></a>
+                <a href="#"><img src="./images/img_06.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="./images/img_07.jpg" alt=""></a>
+            </div>
+        </section>
+        <section id="dynamic">
+            <div class="title clearfix">
+                <span class="left">关注动态</span>
+                <span class="more right">更多 ></span>
+            </div>
+            <div class="section">
+                <dynamic-col info="Zespri佳沛，新西兰绿奇异果" labelone="6个装" labeltwo="经典36果" labelthree="单果重约90-100g" price="￥28.00"></dynamic-col>
+                <dynamic-col info="Zespri佳沛，新西兰阳光金奇异果" labelone="6个装" labeltwo="经典36-39号果" labelthree="单果重约80-100g" price="￥39.90"></dynamic-col>
+                <dynamic-col info="百年栗园，散养土鸡蛋，新鲜柴鸡蛋" labelone="30枚/盒" labeltwo="现捡现发" labelthree="破一赔一" price="￥42.80"></dynamic-col>
+                <dynamic-col info="新奇士Sunkist，进口红肉脐橙" labelone="6粒" labeltwo="单果重约160-210g" labelthree="新鲜橙子血橙水果" price="￥48.80"></dynamic-col>
+                <dynamic-col info="大樱桃车厘子，美早大樱桃" labelone="500g/箱" labeltwo="果径约24mm起" labelthree="第2件5折/3件6.5折" price="$78.8"></dynamic-col>
+                <dynamic-col info="寻天果蔬,泰国山竹 新鲜水果" labelone="生鲜水果" labeltwo="约1.5kg" labelthree="甲方：下单减15元" price="$64.90"></dynamic-col>
+            </div>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="#"><img src="./images/ico_07.png" alt=""></a>
+        <a href="#"><img src="./images/ico_08.png" alt=""></a>
+        <a href="#"><img src="./images/ico_09.png" alt=""></a>
+        <a href="#"><img src="./images/ico_10.png" alt=""></a>
+    </footer>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
