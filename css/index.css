@@ -171,19 +171,20 @@ html{
 	background: #ebf3fa;
 }
 #dynamic .title{
-	font-size: 0.3rem;
-	padding: 0 0.3rem;
+	font-size: 0.5rem;
+	padding: 0 0.3rem 0.3rem;
+}
+#dynamic .title .more{
+	font-size: 0.4rem;
 }
 #dynamic .section .dynamicInfo{
 	position: relative;
-	border-bottom: 0.04rem solid #fff;
-	padding: 0.2rem 0.3rem 0;
-}
-#dynamic .section .dynamicInfo:last-of-type{
-	border: none;
+	color: #333;
+	border-top: 0.04rem solid #fff;
+	padding: 0.5rem 0.3rem 0;
 }
 #dynamic .section .dynamicInfo .info{
-	font-size: 0.22rem;
+	font-size: 0.45rem;
 	font-weight: normal;
 	width: 8rem;
 	overflow: hidden;
@@ -192,7 +193,7 @@ html{
 }
 #dynamic .section .dynamicInfo .details{
 	width: 100%;
-	height: 0.5rem;
+	height: 1rem;
 	margin: 0.2rem 0 0.2rem;
 	width: 8rem;
 	overflow: hidden;
@@ -201,7 +202,7 @@ html{
 }
 #dynamic .section .dynamicInfo .details .labelone,
 #dynamic .section .dynamicInfo .details .labeltwo{
-	font-size: 0.18rem;
+	font-size: 0.35rem;
 	padding: 0.05rem 0.12rem;
 	box-sizing: border-box;
 	border-radius: 0.1rem;
@@ -213,12 +214,12 @@ html{
 	margin-left: 0.7rem;
 	background: #18c49f;
 }
-#dynamic .section .dynamicInfo .details .labeltwo{
-	margin-left: 0.4rem;
-	font-size: 0.15rem;
+#dynamic .section .dynamicInfo .details .labelthree{
+	margin-left: 0.7rem;
+	font-size: 0.35rem;
 }
 #dynamic .section .dynamicInfo .price{
-	font-size: 0.2rem;
+	font-size: 0.3rem;
 	position: absolute;
 	right: 0.2rem;
 	top: calc(50% - 0.1rem);
